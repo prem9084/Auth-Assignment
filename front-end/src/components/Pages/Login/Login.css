@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.register {
+  margin-top: 10rem;
+}
+
+.sign {
+  margin-top: -6rem;
+  font-size: 2rem;
+  margin-left: 10rem;
+  text-decoration: none !important;
+}
+
+.form {
+  border: 1px solid black;
+  padding: 5rem;
+  width: 50%;
+  background-image: linear-gradient(to top, #7663a2 0%, #a56192 100%);
+  border-radius: 1rem;
+}
+
+form {
+  margin-top: 4rem !important;
+}
+
+.PerIcon {
+  padding: 0.2rem;
+}
+
+@media only screen and (max-width: 720px) {
+  .form {
+    width: 100% !important;
+  }
+  .sign {
+    width: 100%;
+    position: relative;
+    right: 7rem;
+  }
+}
